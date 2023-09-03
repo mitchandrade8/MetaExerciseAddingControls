@@ -11,6 +11,7 @@
 		748869212AA5329700F45F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748869202AA5329700F45F77 /* ContentView.swift */; };
 		748869232AA5329800F45F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748869222AA5329800F45F77 /* Assets.xcassets */; };
 		748869262AA5329800F45F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748869252AA5329800F45F77 /* Preview Assets.xcassets */; };
+		7488692D2AA5337D00F45F77 /* ReservationCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488692C2AA5337D00F45F77 /* ReservationCalendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		748869202AA5329700F45F77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		748869222AA5329800F45F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748869252AA5329800F45F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7488692C2AA5337D00F45F77 /* ReservationCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCalendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7488691E2AA5329700F45F77 /* MetaExerciseAddingControlsApp.swift */,
 				748869202AA5329700F45F77 /* ContentView.swift */,
+				7488692C2AA5337D00F45F77 /* ReservationCalendar.swift */,
 				748869222AA5329800F45F77 /* Assets.xcassets */,
 				748869242AA5329800F45F77 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				748869212AA5329700F45F77 /* ContentView.swift in Sources */,
+				7488692D2AA5337D00F45F77 /* ReservationCalendar.swift in Sources */,
 				7488691F2AA5329700F45F77 /* MetaExerciseAddingControlsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
