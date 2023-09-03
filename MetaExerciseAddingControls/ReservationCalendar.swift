@@ -14,8 +14,21 @@ struct ReservationCalendar: View {
     var body: some View {
         Form {
             HStack {
-                DatePicker("", selection: $selectedDate, displayedComponents: [.date, .hourAndMinute])
+                DatePicker(
+                    selection: $selectedDate,
+                    in: Date()...,
+                    displayedComponents: [.date, .hourAndMinute]
+                ) { }
+                
+                Button(action: { print("Do something!!")}) {
+                    HStack {
+                        Image(systemName: "arrow.right.circle")
+                        Text("Done")
+                    }
+                }
+                .padding(20)
             }
+            Text("Date is \(selectedDate.formatted(date: .long, time: .complete))")
         }
     }
 }
